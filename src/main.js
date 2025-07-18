@@ -26,7 +26,7 @@ const test_images = [
   {
     title: "Crecent Lake",
     description: "This picture was taken on a road trip with friends. We pulled over for a short bathroom break on our way to Forks, Wa (One of us was a big twightlight fan). We didn't think much of the stop, until we saw the lake. You can't tell from the photograph, but the lake was a beautiful shade of blue. Nature has a way of suprising you with an uncapturable beauty; a beauty that can only be held in the moments were you're able to stop and be still.",
-    src: "/images/IMG_0217.JPEG"
+    src: new URL("./images/IMG_0217.JPEG", import.meta.url)
   },
   {
     title: "Columbia River Gorge--Bridge of the Gods",
